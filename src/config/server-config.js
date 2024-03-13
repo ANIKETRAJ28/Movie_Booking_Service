@@ -5,5 +5,8 @@ dotenv.config();
 module.exports = {
     PORT: process.env.PORT,
     MOVIEPORT: process.env.MOVIEPORT,
-    USERPORT: process.env.USERPORT
+    USERPORT: process.env.USERPORT,
+    EXCHANGE_NAME: process.env.EXCHANGE_NAME,
+    REMINDER_BINDING_KEY: process.env.REMINDER_BINDING_KEY,
+    MESSAGE_BROKER_URL: process.env.MESSAGE_BROKER_URL
 };
